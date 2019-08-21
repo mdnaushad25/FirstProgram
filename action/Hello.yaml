@@ -1,0 +1,13 @@
+
+name: hello
+pack: hello_pack
+running_type: "python_script"
+Description: print hello world!
+enable: true
+entry_point: hello.py
+parameters:
+   message:
+       type:string
+       description:print hello
+       required: true
+       position:1
